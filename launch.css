@@ -226,6 +226,24 @@ body {
   background-color: #ffedfa;
 }
 
+.menu-item-card button{
+  background-color: #be5985;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: #666666 1px 1px 1px 1px;
+  font-family: inherit;
+}
+
+.menu-item-card button:hover {
+  background-color: #7d1c4a;
+  color: white;
+  transition: 0.3s ease;
+}
+
 .menu-item-card img {
   width: 50px;
   height: 50px;
